@@ -3,7 +3,7 @@ Emulates .init_proc -> sub_2CBF50 (Speck-like block cipher)
   python3 dec.py [input.so] [output.so]
 """
 
-import struct
+import struct 
 import sys
 import os
 from unicorn import Uc, UC_ARCH_ARM64, UC_MODE_LITTLE_ENDIAN, UC_HOOK_MEM_UNMAPPED
